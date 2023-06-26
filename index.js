@@ -1,15 +1,4 @@
 /*=================================================*/
-/*                                                 */
-/*              Written By Zooky.                  */
-/*                                                 */
-/*             Discord: Zooky.#1003                */
-/*              Telegram: @zookyy                  */
-/*                                                 */
-/*          Website: https://www.eryx.io           */
-/*                                                 */
-/*  If you wish to purchase the premium version    */
-/*       please visit the github link above.       */
-/*                                                 */
 /*=================================================*/
 
 const chalk = require('chalk');
@@ -58,20 +47,9 @@ process.on('uncaughtException', (err, origin) => {
     console.clear();
 
     ConsoleLog(`/*=================================================*/
-/*                                                 */
-/*              Written By Zooky.                  */
-/*                                                 */
-/*             Discord: Zooky.#1003                */
-/*              Telegram: @zookyy                  */
-/*                                                 */
-/*          Website: https://www.eryx.io           */
-/*                                                 */
-/*  If you wish to purchase the premium version    */
-/*       please visit the github link above.       */
-/*                                                 */
 /*=================================================*/\n\n`);
 
-    msg.primary('Eryx Lite has been started.');
+    msg.primary('SmartSniper Lite has been started.');
 
 	// balance check
     if(network.bnb_balance == 0) {
